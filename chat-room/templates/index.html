@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/css/room.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="kuai">
+    <h2  style="text-align: center;">聊天室</h2>
+    <div class="li">
+        <div id="chat" class="content" >
+        </div>
+    </div>
+    <div class="send">
+        <textarea class="text" type="text" id="inp"></textarea>
+        <button id="user" value="{{ username }}" type="button" style="float: right" onclick="send_inp()">发送</button>
+    </div>
+</div>
+</body>
+<script src="/static/js/room.js" type="application/javascript"></script>
+</html>
